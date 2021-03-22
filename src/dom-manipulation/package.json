@@ -5,6 +5,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
+    "@salesforce/sfdx-lwc-jest": "^0.10.4",
     "babel-jest": "*",
     "jest": "*"
   },

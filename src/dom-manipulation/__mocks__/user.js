@@ -1,4 +1,4 @@
-const user = jest.createMockFromModule("../user");
+const user = jest.genMockFromModule("../user");
 
 user.getAuthenticated = () => ({
   age: 100500,

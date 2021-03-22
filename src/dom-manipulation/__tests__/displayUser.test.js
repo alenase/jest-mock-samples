@@ -1,5 +1,4 @@
-import user from "../__mocks__/user";
-
+import MockUser from "../__mocks__/user"; 
 describe("testing mocks", () => {
   afterEach(() => {
     while (document.body.firstChild) {
@@ -75,6 +74,6 @@ describe("testing mocks", () => {
   });
 
   it("Manual mock", () => {
-    expect(user.getAuthenticated()).toEqual({ age: 100500, name: "FAKE" });
+    expect(MockUser.getAuthenticated()).toEqual({ age: 100500, name: "FAKE" });
   });
 });
